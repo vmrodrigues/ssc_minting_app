@@ -32,6 +32,7 @@ import { MintCountdown } from "./MintCountdown";
 import { MintButton } from "./MintButton";
 import { GatewayProvider } from "@civic/solana-gateway-react";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
+//import KING7 from '/img/KING7.GIF'; 
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
@@ -511,7 +512,8 @@ const Home = (props: HomeProps) => {
         textAlign: "center"
         }}>
         <h2 >SUPERSTAR: THE KING7</h2>
-        <SuperStarImage style={{ marginTop: 5 }}src="img/KING7.gif" alt="SUPER STAR KING7 "></SuperStarImage>
+        <SuperStarImage style={{ marginTop: 5 }} src='/img/KING7.GIF' alt="SUPER STAR KING7 "></SuperStarImage>
+
         <Paper
           style={{
             padding: 24,
