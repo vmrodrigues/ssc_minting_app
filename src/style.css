@@ -3,7 +3,7 @@
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,9 +13,9 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-  color: #F9CA36;
-  font-family: 'Source Sans 3', sans-serif;
-  background-color: #2D04C6;
+  color: #f9ca36;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #2d04c6;
 }
 
 input {
@@ -27,10 +27,11 @@ input {
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px rgba(255, 255, 255, 0) inset !important;
-          box-shadow: 0 0 0 30px rgba(255, 255, 255, 0) inset !important;
+  box-shadow: 0 0 0 30px rgba(255, 255, 255, 0) inset !important;
 }
 
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -116,15 +117,15 @@ textarea {
 }
 
 .btn_primary {
-  color: #F930B0;
-  background-color: #F9D330;
+  color: #f930b0;
+  background-color: #f9d330;
   line-height: 1.29em;
   letter-spacing: 0.135em;
   padding: 15px 24px 12px;
   font-weight: 600;
   font-size: 29px;
-  -webkit-transition: background .2s ease;
-  transition: background .2s ease;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
 }
 
 .btn_primary:hover {
@@ -135,7 +136,7 @@ textarea {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 100px;
 }
 
@@ -158,7 +159,7 @@ textarea {
 
 .header {
   padding: 32px 0;
-  background-color: #06AC3C;
+  background-color: #06ac3c;
 }
 
 .menu {
@@ -167,8 +168,8 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 16px 0;
 }
 
@@ -177,7 +178,7 @@ textarea {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #06AC3C;
+  background-color: #06ac3c;
 }
 
 .menu__link {
@@ -186,12 +187,12 @@ textarea {
 }
 
 .menu__link:hover {
-  border-bottom: 1px solid #F9CA36;
+  border-bottom: 1px solid #f9ca36;
 }
 
 .welcome {
   padding: 130px 0 136px;
-  background-color: #F930B0;
+  background-color: #f930b0;
   text-align: center;
 }
 
@@ -217,7 +218,7 @@ textarea {
 }
 
 .coll {
-  background-color: #F9D330;
+  background-color: #f9d330;
 }
 
 .coll__inner {
@@ -225,13 +226,13 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #F930B0;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #f930b0;
   padding-bottom: 42px;
   margin-bottom: 39px;
 }
@@ -248,7 +249,7 @@ textarea {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 166px 166px;
-      grid-template-columns: 166px 166px;
+  grid-template-columns: 166px 166px;
   gap: 31px 26px;
 }
 
@@ -264,7 +265,7 @@ textarea {
 
 .coll__text {
   padding: 25px;
-  background-color: #F930B0;
+  background-color: #f930b0;
   letter-spacing: 0.14em;
 }
 
@@ -281,7 +282,7 @@ textarea {
 }
 
 .util {
-  background-color: #42C7D1;
+  background-color: #42c7d1;
 }
 
 .util__subtitle {
@@ -297,13 +298,13 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background: #8812C6;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #8812c6;
 }
 
 .util__inner_1 {
@@ -311,8 +312,8 @@ textarea {
 }
 
 .util__title {
-  color: #8812C6;
-  background-color: #F9D330;
+  color: #8812c6;
+  background-color: #f9d330;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -328,20 +329,20 @@ textarea {
 }
 
 .util p {
-  color: #42C7D1;
+  color: #42c7d1;
 }
 
 .map {
   padding-bottom: 66px;
-  background-color: #8812C6;
-  color: #2D04C6;
+  background-color: #8812c6;
+  color: #2d04c6;
   overflow: hidden;
 }
 
 .map__title {
   padding: 61px 0 9px;
-  color: #8812C6;
-  background-color: #42C7D1;
+  color: #8812c6;
+  background-color: #42c7d1;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -364,7 +365,7 @@ textarea {
   margin-left: -200%;
   text-align: right;
   padding: 33px 0 35px;
-  background-color: #42C7D1;
+  background-color: #42c7d1;
   min-height: 90px;
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
@@ -387,13 +388,13 @@ textarea {
 
 .map__text::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   top: 0;
   right: -100px;
   z-index: 0;
-  background-color: #42C7D1;
+  background-color: #42c7d1;
 }
 
 .map__text:not(:last-child) {
@@ -401,18 +402,18 @@ textarea {
 }
 
 .team {
-  color: #42C7D1;
+  color: #42c7d1;
 }
 
 .team__title {
-  color: #42C7D1;
+  color: #42c7d1;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
   margin-left: auto;
   padding-left: 38px;
   padding-right: 38px;
-  background-color: #8812C6;
+  background-color: #8812c6;
   margin-bottom: 158px;
 }
 
@@ -422,11 +423,11 @@ textarea {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -ms-flex-align: end;
+  align-items: end;
   text-align: right;
 }
 
@@ -456,7 +457,7 @@ textarea {
   /*position: sticky;*/
   z-index: 100;
   bottom: 0;
-  background-color: #2D04C6;
+  background-color: #2d04c6;
   padding: 30px 0 40px;
   margin-top: 50px;
 }
@@ -466,12 +467,12 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .footer__list {
@@ -479,8 +480,8 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 32px 0px 40px;
 }
 
@@ -499,12 +500,12 @@ textarea {
 }
 
 .footer__link {
-  -webkit-transition: opacity .2s ease;
-  transition: opacity .2s ease;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .footer__link:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .footer__link img {
@@ -545,7 +546,7 @@ textarea {
   }
   .wrapper {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
   }
   .coll__title {
@@ -635,7 +636,7 @@ textarea {
   }
   .menu {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .menu__item {
     text-align: center;
@@ -644,7 +645,7 @@ textarea {
   .coll__grid {
     gap: 15px;
     -ms-grid-columns: 150px 150px;
-        grid-template-columns: 150px 150px;
+    grid-template-columns: 150px 150px;
   }
   .coll__item {
     height: 150px;
@@ -683,7 +684,7 @@ textarea {
   }
   .coll__grid {
     -ms-grid-columns: 140px 140px;
-        grid-template-columns: 140px 140px;
+    grid-template-columns: 140px 140px;
   }
   .menu__link {
     font-size: 16px;
@@ -710,8 +711,8 @@ button.my-custom-crossmint-button {
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background-color: #F9CA36;
-  color: #F930B0;
+  background-color: #f9ca36;
+  color: #f930b0;
   font-size: 16px;
   font-weight: bold;
 }

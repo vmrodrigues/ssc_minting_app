@@ -6,29 +6,29 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/eslint-recommended"
+    "plugin:@typescript-eslint/eslint-recommended",
   ],
   globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
   },
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 2018,
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ["react", "@typescript-eslint"],
   settings: {
     react: {
-      pragma: 'React',
-      version: '17.0.2',
+      pragma: "React",
+      version: "17.0.2",
     },
   },
   rules: {
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error'],
-    "react/react-in-jsx-scope": "off"
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "react/react-in-jsx-scope": "off",
   },
 };

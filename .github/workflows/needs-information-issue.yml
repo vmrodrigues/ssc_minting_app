@@ -1,5 +1,5 @@
 name: Remove needs more information
-on: 
+on:
   issue_comment:
     types: [created]
 jobs:
@@ -13,4 +13,3 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 permissions:
   issues: write
-  
