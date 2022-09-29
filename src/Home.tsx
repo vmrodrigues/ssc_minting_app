@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import * as anchor from "@project-serum/anchor";
+// Add this import line at the top
+import { CrossmintPayButton } from "@crossmint/client-sdk-react-ui";
 
 import styled from "styled-components";
 import { Container, Snackbar } from "@material-ui/core";
@@ -36,11 +38,25 @@ const ConnectButton = styled(WalletDialogButton)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
-  color: white;
+  background-color: #F9CA36;
+  color: #F930B0;
   font-size: 16px;
   font-weight: bold;
+  :hover {
+    background-color: #efc307;
+    ;
+  }
 `;
+
+const SuperStarImage = styled("img")`
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+`; 
 
 const MintContainer = styled.div``; // add your owns styles here
 
@@ -52,6 +68,7 @@ export interface HomeProps {
   network: WalletAdapterNetwork;
   error?: string;
 }
+
 
 const Home = (props: HomeProps) => {
   const [isUserMinting, setIsUserMinting] = useState(false);
@@ -486,19 +503,26 @@ const Home = (props: HomeProps) => {
     })();
   }, [refreshCandyMachineState]);
 
+  
   return (
-    <Container style={{ marginTop: 100 }}>
-      <Container maxWidth="xs" style={{ position: "relative" }}>
+    <Container style={{ marginTop: 25 }}>
+      <Container maxWidth="xs" style={{ 
+        position: "relative",
+        textAlign: "center"
+        }}>
+        <h2 >SUPERSTAR: THE KING7</h2>
+        <SuperStarImage style={{ marginTop: 5 }}src="img/KING7.gif" alt="SUPER STAR KING7 "></SuperStarImage>
         <Paper
           style={{
             padding: 24,
             paddingBottom: 10,
-            backgroundColor: "#151A1F",
+            backgroundColor: "#F930B0",
             borderRadius: 6,
           }}
         >
           {!wallet.connected ? (
             <ConnectButton>Connect Wallet</ConnectButton>
+            
           ) : (
             <>
               {candyMachine && (
@@ -639,13 +663,19 @@ const Home = (props: HomeProps) => {
               </MintContainer>
             </>
           )}
+          <CrossmintPayButton
+            clientId="c23ef00b-ff4f-4def-9d78-b25fc6c5285b"
+            mintConfig={{"type":"candy-machine"}}
+            environment="staging"
+            className="my-custom-crossmint-button"
+          />
           <Typography
             variant="caption"
             align="center"
             display="block"
             style={{ marginTop: 7, color: "grey" }}
           >
-            Powered by METAPLEX
+            
           </Typography>
         </Paper>
       </Container>
