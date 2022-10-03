@@ -19,7 +19,7 @@ ReactDOM.render(
           <ul className="menu">
             <li className="menu__item">
               <a
-                href="https://superstarclub.io#coll"
+                href="https://www.superstarclub.io#coll"
                 className="menu__link"
                 data-smooth="smooth"
               >
@@ -28,7 +28,7 @@ ReactDOM.render(
             </li>
             <li className="menu__item">
               <a
-                href="https://superstarclub.io#util"
+                href="https://www.superstarclub.io#util"
                 className="menu__link"
                 data-smooth="smooth"
               >
@@ -46,7 +46,7 @@ ReactDOM.render(
             </li>
             <li className="menu__item">
               <a
-                href="https://superstarclub.io#team"
+                href="https://www.superstarclub.io#team"
                 className="menu__link"
                 data-smooth="smooth"
               >
