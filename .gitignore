@@ -8,4 +8,5 @@ yarn-debug.log*
 yarn-error.log*
 .env
 .vscode
+package-lock.json
 **/.DS_Store

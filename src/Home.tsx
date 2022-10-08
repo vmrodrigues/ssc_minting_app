@@ -668,9 +668,9 @@ const Home = (props: HomeProps) => {
             </>
           )}
           <CrossmintPayButton
-            clientId="c23ef00b-ff4f-4def-9d78-b25fc6c5285b"
+            clientId="c72b76d6-be11-4192-8fc2-2a743ddbb695"
             mintConfig={{ type: "candy-machine" }}
-            environment="staging"
+            environment="production"
             className="my-custom-crossmint-button"
           />
           <Typography
