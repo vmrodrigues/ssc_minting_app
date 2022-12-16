@@ -37,11 +37,11 @@ const useStyles = makeStyles((theme: Theme) =>
       color: "white",
       borderRadius: 5,
       fontWeight: "bold",
-      fontSize: 18,
+      fontSize: 12,
     },
     item: {
       fontWeight: "bold",
-      fontSize: 18,
+      fontSize: 12,
     },
   })
 );

@@ -23,6 +23,14 @@ code {
     monospace;
 }
 
+h1{
+  font-family: inherit;
+}
+h2{
+  font-family: inherit;
+
+}
+
 /*
 body {
   background: #000000;

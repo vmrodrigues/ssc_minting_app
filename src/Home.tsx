@@ -49,8 +49,9 @@ const ConnectButton = styled(WalletDialogButton)`
 `;
 
 const SuperStarImage = styled("img")`
-  width: 100%;
-  height: 350px;
+  width: 200px;
+  height: 200px;
+  position:flex;
   object-fit: cover;
   object-position: top;
   margin-bottom: 10px;
@@ -507,6 +508,8 @@ const Home = (props: HomeProps) => {
         maxWidth="xs"
         style={{
           position: "relative",
+          border:"5px",
+          borderColor:"black",
           textAlign: "center",
         }}
       >

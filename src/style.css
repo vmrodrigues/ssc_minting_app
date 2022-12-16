@@ -708,11 +708,45 @@ textarea {
 }
 button.my-custom-crossmint-button {
   width: 100%;
-  height: 60px;
-  margin-top: 10px;
+  height: 30px;
+  margin-top: 5px;
   margin-bottom: 5px;
-  background-color: #f9ca36;
   color: #f930b0;
-  font-size: 16px;
+  background-color: #f9d330;
+  font-size: 12px;
   font-weight: bold;
+  position: flex;
+  border-radius:4px;
+  font-family: "Source Sans 3";
+  text-transform: uppercase;
+
+}
+
+
+.my-custom-crossmint-button img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.my-custom-crossmint-button span{
+  color: #f930b0;
+}
+.crossmintParagraph{
+  color: #f930b0;
+}
+
+:hover.my-custom-crossmint-button{
+  /*border: 1px solid #0099cc;*/
+  /*background-color: #00aacc;*/
+  text-decoration: underline;
+}
+
+:disabled.my-custom-crossmint-button{
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.span_bold{
+  color: #f9d330;
+  text-decoration: underline;
+  font-size: larger;
 }

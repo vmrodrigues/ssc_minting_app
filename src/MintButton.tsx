@@ -15,12 +15,12 @@ import { CIVIC_GATEKEEPER_NETWORK } from "./utils";
 
 export const CTAButton = styled(Button)`
   width: 100%;
-  height: 60px;
-  margin-top: 10px;
+  height: 40px;
+  margin-top: 5px;
   margin-bottom: 5px;
   background-color: #f9ca36;
   color: #f930b0;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   :hover {
     background-color: #efc307;
@@ -61,7 +61,7 @@ export const MintButton = ({
       return "WHITELIST MINT";
     }
 
-    return "MINT";
+    return " ★ CLAIM YOUR NFT";
   };
 
   useEffect(() => {
